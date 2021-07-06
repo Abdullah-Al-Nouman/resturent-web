@@ -1,0 +1,87 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+h1{
+    font-size: 60px;
+}
+.crimson-color{
+    color: crimson;
+    font-size: 60px;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+.half-width{
+ width: 50%;
+ padding-left: 5%;
+
+
+}
+.half-width img{
+    width: 80%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange ;
+    padding: 10px 40px;
+    border-radius: 25px;
+    background-image: linear-gradient(crimson,black);
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.about-me{
+   background-image: url(images/shapes/7.png ); 
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+.Recipies-item{
+    box-shadow: 10px 10px 20px black;
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    
+    
+
+}
+
+.header-text-size{
+    font-size: 68px;
+    text-align: center;
+    text-shadow: 2px 2px grey;
+    color: black;
+}
+#recipies-box{
+    border: 15px solid white;
+    border-radius: 3px solid white;
+    
+    border-image:linear-gradient(black blue) ;
+    border-image-slice: 1;
+}
+
+
+footer p{
+    text-align: center;
+}
+.fitting-box-image img{
+    width: 85%;
+    height:40% ;
+
+
+}
+
+
