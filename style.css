@@ -8,7 +8,6 @@ h1{
 }
 .crimson-color{
     color: crimson;
-    font-size: 60px;
 }
 .flexible{
     display: flex;
@@ -61,26 +60,30 @@ h1{
 
 .header-text-size{
     font-size: 68px;
-    text-align: center;
+    padding-left: 500px;
     text-shadow: 2px 2px grey;
     color: black;
 }
 #recipies-box{
+    height: 500px;
     border: 15px solid white;
-    border-radius: 3px solid white;
-    
+    border-radius: 3px solid white;  
     border-image:linear-gradient(black blue) ;
     border-image-slice: 1;
 }
 
 
-footer p{
-    text-align: center;
+.fitting-bckColor{
+    background-color: black;
+
 }
 .fitting-box-image img{
-    width: 85%;
+    width: 95%;
     height:40% ;
-
+}
+.fitting-color{
+    color: whitesmoke;
+    text-align: center;
 
 }
 
